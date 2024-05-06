@@ -1,0 +1,24 @@
+form.form > *:not(:first-child), label > *:not(:first-child), .radio > *:not(:first-child) {
+  margin-top: 10px;
+  display: block;
+}
+form.form-legend > *:not(:first-child) {
+  margin-top: 30px;
+  display: block;
+}
+form.select-form > *:not(:last-child) {
+  margin-right: 10px;
+  display: inline-block;
+}
+form.select-form {
+  display: flex;
+  align-items: flex-end;
+}
+
+.radio {
+  border: 2px solid #000;
+  padding: 5px;
+}
+p {
+  margin: 0;
+}

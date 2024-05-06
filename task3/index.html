@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Задание 3</title>
+    <link rel="stylesheet" href="../style.css" type="text/css">
+</head>
+<body>
+    <form class="form" action="#">
+      <div>
+        <label>
+          <input type="checkbox">
+          Это метка для чекбокса: нажмите на меня - чекбокс сменит галочку!
+        </label>
+      </div>
+
+      <div>
+        <label>
+          <input checked type="checkbox">
+          Я отмечен по умолчанию
+        </label>
+      </div>
+
+      <div>
+        <label>
+          <input checked type="checkbox" disabled>
+          Я disabled
+        </label>
+      </div>
+
+      <div class="radio">
+        <p>Это группа радиокнопок - только одна из них может быть отмечена!</p>
+        <label>
+          <input type="radio" name="radio-test">
+          Это метка для радио
+        </label>
+        <label>
+          <input type="radio" checked name="radio-test">
+          Это метка для радио
+        </label>
+      </div>
+
+      <div>
+        <button type="submit">Отправить на сервер</button>
+    </div>
+    </form>
+</body>
+</html>
